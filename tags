@@ -1,0 +1,45 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Bidirectional	bilstm/bilstm.py	/^from keras.layers import Input, Embedding, LSTM, Bidirectional, Dense$/;"	i
+DOCODES	convert-to-word.py	/^DOCODES = {'DO': '1',$/;"	v
+Dense	bilstm/bilstm.py	/^from keras.layers import Input, Embedding, LSTM, Bidirectional, Dense$/;"	i
+EarlyStopping	bilstm/bilstm.py	/^from keras.callbacks import EarlyStopping$/;"	i
+Embedding	bilstm/bilstm.py	/^from keras.layers import Input, Embedding, LSTM, Bidirectional, Dense$/;"	i
+Input	bilstm/bilstm.py	/^from keras.layers import Input, Embedding, LSTM, Bidirectional, Dense$/;"	i
+LSTM	bilstm/bilstm.py	/^from keras.layers import Input, Embedding, LSTM, Bidirectional, Dense$/;"	i
+MatchParen	PTree.py	/^def MatchParen(x):$/;"	f
+Model	bilstm/bilstm.py	/^from keras.models import Model$/;"	i
+PTree	PTree.py	/^class PTree:$/;"	c
+ParseFile	PTree.py	/^def ParseFile(filename, debug=False):$/;"	f
+ParseFiles	PTree.py	/^def ParseFiles(argvs,debug=False):$/;"	f
+ParseTree	PTree.py	/^def ParseTree(x):$/;"	f
+__eq__	PTree.py	/^    def __eq__(self,other):$/;"	m	class:PTree	file:
+__hash__	PTree.py	/^    def __hash__(self):$/;"	m	class:PTree	file:
+__init__	PTree.py	/^    def __init__(self, name, content):$/;"	m	class:PTree
+__ne__	PTree.py	/^    def __ne__(self,other):$/;"	m	class:PTree	file:
+__str__	PTree.py	/^    def __str__(self):$/;"	m	class:PTree	file:
+classification_report	bilstm/bilstm.py	/^from sklearn.metrics import classification_report, confusion_matrix$/;"	i
+confusion_matrix	bilstm/bilstm.py	/^from sklearn.metrics import classification_report, confusion_matrix$/;"	i
+extract_token_id	convert-to-word.py	/^def extract_token_id(tree):$/;"	f
+get_data	bilstm/bilstm.py	/^def get_data():$/;"	f
+get_model	bilstm/bilstm.py	/^def get_model(maxlen):$/;"	f
+get_words	convert-to-word.py	/^def get_words(tree, worddict, code):$/;"	f
+main	bilstm/bilstm.py	/^def main():$/;"	f
+main	convert-to-word.py	/^def main():$/;"	f
+np	bilstm/bilstm.py	/^import numpy as np$/;"	i
+pad_sequences	bilstm/bilstm.py	/^from keras.preprocessing.sequence import pad_sequences$/;"	i
+parse_data_file	bilstm/bilstm.py	/^def parse_data_file(infile, data, labels, datatype, maxlen, maxtoknum):$/;"	f
+pb	bilstm/bilstm.py	/^import progressbar as pb$/;"	i
+pickle	bilstm/bilstm.py	/^import pickle$/;"	i
+process_file_pair	convert-to-word.py	/^def process_file_pair(f1, f2, debug, numout):$/;"	f
+progressbar	convert-to-word.py	/^import progressbar$/;"	i
+shuffle	convert-to-word.py	/^from random import shuffle$/;"	i
+sys	PTree.py	/^import sys$/;"	i
+sys	convert-to-word.py	/^import sys$/;"	i
+tf	bilstm/bilstm.py	/^import tensorflow as tf$/;"	i
+write_out_diff	convert-to-word.py	/^def write_out_diff(t1, t2, outfile, numout=False):$/;"	f
+write_out_words	convert-to-word.py	/^def write_out_words(tokens, filename, worddict):$/;"	f
